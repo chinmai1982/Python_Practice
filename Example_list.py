@@ -18,4 +18,22 @@ my_list = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 for element in my_list:
     if(element<5):
         print(element)
-        
+
+
+# More Conditionals(finding Grades)
+
+grade = int(input("Enter your numerical Grade : "))
+if grade >= 90:
+    print("A")
+elif grade >= 80:
+    print("B")
+elif grade >=70:
+    print("C")
+elif grade >= 65:
+    print("D")
+else:
+    print("F")
+    
+
+
+
