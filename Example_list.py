@@ -82,3 +82,12 @@ for item in a:
             nlist.append(item)
 
 print(nlist)
+
+# some more examples of list
+student_list = ["Chinmai","Sutar","Abhay","ojha","Arnesh"]
+name = input("Enter the student name Here : ")
+if name in student_list:
+    print(name)
+else:
+    print("The Student name does not exist")
+    
