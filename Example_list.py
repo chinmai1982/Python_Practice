@@ -34,6 +34,27 @@ elif grade >= 65:
 else:
     print("F")
     
+'''There is an easy way to programmatically create lists of numbers in Python.
 
+To create a list of numbers from 2 to 10, just use the following code:
+'''
+x = range(2, 11)
 
+'''Then the variable x will contain the list [2, 3, 4, 5, 6, 7, 8, 9, 10]. Note that the second number in the
+   range() function is not included in the original list.
+   Now that x is a list of numbers, the same for loop can be used with the list:
+'''
+
+for element in x:
+    print(element)
+
+# Create a program that asks the user for a number and then prints out a list of all the divisors of that number.
+
+num1 = int(input("Enter the Number Here to find the Divisors : "))
+numdivisors = []
+
+for num in list(range(1,num1+1)):
+    if num1 % num == 0 :
+        numdivisors.append(num)
+print(numdivisors)        
 
