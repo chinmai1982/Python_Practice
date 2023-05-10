@@ -6,3 +6,6 @@ print(age)
 print("Door" + "Closed")
 print(4 * "Apple")
 print("6" + "Oranges")
+
+sal = 20000.39
+print(sal)
