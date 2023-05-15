@@ -18,4 +18,12 @@ Because strings are lists, you can do to strings everything that you do to lists
 S = "Chinmai Sutar"
 for str in S:
     print("The letter is : " + str)
-    
+
+string = S[2:7]
+print(string)
+
+years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
+ages = []
+for year in years_of_birth: 
+    ages.append(2014 - year)
+print(ages)
