@@ -1,0 +1,26 @@
+pipeline 
+{
+    agent any
+
+    stages 
+	{
+        stage('version') 
+		{
+            steps 
+			{
+                
+                sh 'python3 --version'
+                
+            }
+        }
+		
+        stage('evenodd') 
+		{
+            steps 
+		    {
+                sh 'python3 EvenOdd.py'
+            }
+        }
+
+    }
+}
