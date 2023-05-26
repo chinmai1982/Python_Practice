@@ -7,5 +7,8 @@ print(fruits.keys())
 print(fruits.values())
 print(fruits.items())
 fruits['apple']=100
+
+fruits['Mango']=70
 print(fruits.items())
+
 
