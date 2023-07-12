@@ -17,4 +17,3 @@ class Employee:
 e = Employee('Chinmai Sutar',37,95000,'Female')
              
 e.employee_details()   
-
