@@ -10,4 +10,10 @@ if((num1 % num2) == 0):
     print("this is an even number")
 else:
     print("This is an odd number")
+
+
+a1=10
+b1=20
+a1!=b1   
+print(a1!=b1)
     
